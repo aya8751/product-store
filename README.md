@@ -1,27 +1,49 @@
-# Task
+## App Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Welcome to our app! Our goal is to make your shopping experience as easy and convenient as possible. With our app, you can easily search for products using a search bar or by filtering through different categories.
+Once you find what you're looking for, you can add it to your cart and continue browsing for other products.
 
-## Development server
+To get started, you'll need to login to your account. Once you've logged in, you can:
+UserName: kminchelle
+Password: 0lelplR
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<a href="https://product-store-six.vercel.app/login" target="_blank" title="Demo">
+    Live Demo
+</a>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Specifications
 
-## Build
+- Search for a specific product using the search bar
+- Filter products using the filter menu to find exactly what you're looking for
+- Add products to your cart with ease
+- Checkout your products when you're ready to make your purchase
+- Calculate the total price for all products in your cart
+- Remove products from your cart if you change your mind
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies used
 
-## Running unit tests
+- Html
+- Scss
+- Javascript
+- Angular 
+- Bootstrap
+- Typescript
+- Docker
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3>Products Page</h3>
 
-## Running end-to-end tests
+![product-page](./src/assets/products.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h3>Cart Page</h3>
 
-## Further help
+![cart-page](./src/assets/carte.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![cart-page](./src/assets/cartp.png)
+
+<h3>Login Page</h3>
+
+![login-page](./src/assets/login.png)
+
+
+### Made with :heart: 

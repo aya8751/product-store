@@ -10,7 +10,11 @@ import { CartState } from './cart.reducer';
   providedIn: 'root'
 })
 export class CartService {
-  constructor(private store: Store<{ cart: CartState }>) {}
+  constructor(private store: Store<{ cart: CartState }>) {
+    // this.store.subscribe(data=>{
+    //   console.log(data);
+    // })
+  }
 
   public addItem(item: CartItem): void {
     item.id = uuidv4();
