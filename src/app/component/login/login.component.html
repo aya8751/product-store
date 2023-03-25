@@ -1,0 +1,17 @@
+<div class="card" style="max-width: 62.2rem; ">
+  <div class="card-body">
+    <h5 class="form-title">Welcome !</h5>
+    <form (ngSubmit)="onSubmit()" class="text-center">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">User Name</label>
+        <input type="text" class="form-control" id="exampleInputEmail3" placeholder="User Name" [(ngModel)]="username" name="username">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" [(ngModel)]="password" name="password">
+      </div>
+      <button type="submit" class="btn mx-auto">Login</button>
+    </form>
+  </div>
+</div>
+

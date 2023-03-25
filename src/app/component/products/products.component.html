@@ -1,0 +1,43 @@
+<div class="containerr">
+  <!-- filter menu start -->
+  <div class="flex">
+    <div class="filter-menu">
+      <h2 class="filter-title">Filter by</h2>
+      <div class="all-category">
+        <input type="radio" name="category" [value]="" [(ngModel)]="selectedCategoryId"  (change)="filter('')">All
+      </div>
+      <div *ngFor="let category of categories" class="item">
+        <input type="radio" name="category" [value]="category.id" [(ngModel)]="selectedCategoryId"  (change)="filter(category.name)">
+        {{ category.name | titlecase }}
+      </div>
+    </div>
+
+    <!-- product cards -->
+    <ng-container *ngIf="filterCategory.length != 0">
+      <div class="products-container">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'  | paginate: { itemsPerPage: 6, currentPage: p }">
+          <div class="card">
+            <div class="image-container">
+              <img src="{{item.images[0]}}" alt="{{item.title}}">
+            </div>
+            <div class="product-details">
+              <h5 class="product-name">{{item.title}}</h5>
+              <div class="price-details">
+                <p class="price">{{item.price}} EGP</p>
+                <button class="cart-box">
+                  <i class="fa fa-cart-plus cart" (click)="addtocart(item)"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="filterCategory.length == 0">
+      <h1>No Products To Display</h1>
+    </ng-container>
+  </div>
+
+  <!-- pagnation -->
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

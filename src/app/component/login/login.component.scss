@@ -1,0 +1,38 @@
+$primary-color: #1480FF;
+$shadow-primary:#B9D9FF;
+$white-color: #fff;
+$black-color:#000;
+$border-color: #E1E3E2;
+$m-border-radius:8px;
+
+.card{
+  padding: 6.4rem 7.1rem;
+  margin: 4rem auto;
+}
+.form-title{
+  font-weight: 700;
+  font-size: 3.6rem;
+  margin-bottom: 3.7rem;
+}
+.form-group{
+  margin-bottom: 2.4rem;
+}
+.form-group:last-child{
+  margin-bottom: 0px;
+}
+.btn{
+  background: $primary-color;
+  border-radius: $m-border-radius;
+  color: $white-color;
+  padding: 1.1rem 4.3rem;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+@media(max-width: 35em){
+  .card{
+    margin: 3rem 2.4rem;
+    display: flex;
+    justify-content: center;
+  }
+}
