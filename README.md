@@ -4,8 +4,10 @@ Welcome to our app! Our goal is to make your shopping experience as easy and con
 Once you find what you're looking for, you can add it to your cart and continue browsing for other products.
 
 To get started, you'll need to login to your account. Once you've logged in, you can:
-UserName: kminchelle
-Password: 0lelplR
+
+<h4>UserName: kminchelle</h>
+
+<h4>Password: 0lelplR</h4>
 
 <a href="https://product-store-six.vercel.app/login" target="_blank" title="Demo">
     Live Demo
@@ -17,7 +19,6 @@ Password: 0lelplR
 - Search for a specific product using the search bar
 - Filter products using the filter menu to find exactly what you're looking for
 - Add products to your cart with ease
-- Checkout your products when you're ready to make your purchase
 - Calculate the total price for all products in your cart
 - Remove products from your cart if you change your mind
 
