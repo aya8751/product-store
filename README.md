@@ -3,7 +3,7 @@
 Welcome to our app! Our goal is to make your shopping experience as easy and convenient as possible. With our app, you can easily search for products using a search bar or by filtering through different categories.
 Once you find what you're looking for, you can add it to your cart and continue browsing for other products.
 
-To get started, you'll need to login to your account. Once you've logged in, you can:
+To get started, you'll need to login to your account.
 
 <h4>UserName: kminchelle</h>
 
